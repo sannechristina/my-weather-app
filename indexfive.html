@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/stylesfive.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/894f10aa12.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather by Sanne Chrisinta</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="borderapp">
+        <h1>s-Hertogenbosch</h1>
+        <form id="form-go">
+          <input type="text" placeholder="Enter your city" autocomplete="off" autofocus="on" id="input-go" />
+          <input type="submit" value="GO" />
+        </form>
+        <div class="currenttemp">
+            
+             <div class="row">
+          <h2 id="city-temp">No info yet</h2>
+          <h2 class="temperature">19</h2>
+          <a href="#" id="input-c">°C</a> 
+          <a href="#" id="f-link">°F</a> 
+          <h6 id="current-time">Current time in 's-Hertogenbosch</h6>
+        </div>
+        <div class="nextdays">
+          
+
+            <div class="row">
+            <div class="col"> Monday <div class="degrees">18°<i class="fas fa-sun"></i></div></div>
+            <div class="col"> Tuesday <div class="degrees">18°<i class="fas fa-sun"></i></div></div>
+            <div class="col"> Wednesday <div class="degrees">18°<i class="fas fa-sun"></i></div></div>
+            <div class="col"> Thursday <div class="degrees">18°<i class="fas fa-sun"></i></div></div>
+            <div class="col">Friday <div class="degrees">18°<i class="fas fa-sun"></i></div></div>
+            </div>
+        
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    <script src="src/indexfive.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+.borderapp {
+  margin: 40px auto;
+  border: 1px solid #deedfa;
+  width: 80%;
+  text-align: center;
+  display: block;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+h1 {
+  color: #232148;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 40px 0 0;
+  font-family: "Spartan", sans-serif;
+}
+form {
+  padding: 20px;
+}
+input {
+  color: #232148;
+  font-family: "Spartan", sans-serif;
+  border: 1px solid #deedfa;
+  background: none;
+}
+::placeholder {
+  color: #fff;
+}
+.currenttemp {
+  color: #232148;
+  font-family: "Spartan", sans-serif;
+  border: 1px solid #fff;
+  margin: 20px;
+  padding: 80px 30px;
+}
+.nextdays {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.col {
+  font-size: 20px;
+  color: #232148;
+  font-family: "Spartan", sans-serif;
+  border: 1px solid #fff;
+  margin: 10px;
+  padding: 20px;
+}
+.degrees {
+  font-size: 26px;
+  color: #232148;
+}
+
+i.fas.fa-sun {
+  color: yellow;
+}
